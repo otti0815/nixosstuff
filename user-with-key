@@ -1,0 +1,7 @@
+users.users.alice = {
+  isNormalUser = true;
+  home = "/home/alice";
+  description = "Alice Foobar";
+  extraGroups = [ "wheel" "networkmanager" ];
+  openssh.authorizedKeys.keys = [ "ssh-dss AAAAB3Nza... alice@foobar" ];
+};
